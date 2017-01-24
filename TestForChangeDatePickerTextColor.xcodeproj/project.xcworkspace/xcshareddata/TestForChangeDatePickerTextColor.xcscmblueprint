@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E2745D48F9F2D45061E2E77C821D15EB5C1F7749",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7FB86173F411AB65EFC6FE67579EB87F5E00ADEB" : 9223372036854775807,
+    "E2745D48F9F2D45061E2E77C821D15EB5C1F7749" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4184E75E-CBB3-4662-A34E-9561B58E8890",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7FB86173F411AB65EFC6FE67579EB87F5E00ADEB" : "TestForChangeDatePickerTextColor\/TestForChangeDatePickerTextColor\/",
+    "E2745D48F9F2D45061E2E77C821D15EB5C1F7749" : "TestForChangeDatePickerTextColor\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TestForChangeDatePickerTextColor",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TestForChangeDatePickerTextColor.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Shane022\/TestForChangePickerTextColor.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7FB86173F411AB65EFC6FE67579EB87F5E00ADEB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Shane022\/TestForDatePickerChangeColor.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E2745D48F9F2D45061E2E77C821D15EB5C1F7749"
+    }
+  ]
+}

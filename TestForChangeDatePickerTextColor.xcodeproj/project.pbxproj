@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0124EB031E375119002C6C0E /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = 0124EAFD1E375119002C6C0E /* download.png */; };
+		0124EB041E375119002C6C0E /* download@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0124EAFE1E375119002C6C0E /* download@2x.png */; };
+		0124EB051E375119002C6C0E /* download@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0124EAFF1E375119002C6C0E /* download@3x.png */; };
 		01A909D71E36EBC30020564A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A909D61E36EBC30020564A /* main.m */; };
 		01A909DA1E36EBC30020564A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A909D91E36EBC30020564A /* AppDelegate.m */; };
 		01A909DD1E36EBC30020564A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A909DC1E36EBC30020564A /* ViewController.m */; };
@@ -14,23 +17,16 @@
 		01A909E21E36EBC30020564A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01A909E11E36EBC30020564A /* Assets.xcassets */; };
 		01A909E51E36EBC30020564A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A909E31E36EBC30020564A /* LaunchScreen.storyboard */; };
 		01A909F11E36F04A0020564A /* UIDatePicker+TPGSetTextColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A909F01E36F04A0020564A /* UIDatePicker+TPGSetTextColor.m */; };
-		01A909F81E36F5390020564A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A909F71E36F5390020564A /* libz.tbd */; };
-		01A909FA1E36F53F0020564A /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A909F91E36F53F0020564A /* libbz2.tbd */; };
-		01A909FC1E36F5480020564A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A909FB1E36F5480020564A /* AudioToolbox.framework */; };
-		01A909FE1E36F54F0020564A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A909FD1E36F54F0020564A /* AVFoundation.framework */; };
-		01A90A001E36F5560020564A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A909FF1E36F5560020564A /* CoreGraphics.framework */; };
-		01A90A021E36F55E0020564A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A90A011E36F55E0020564A /* CoreMedia.framework */; };
-		01A90A041E36F5640020564A /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A90A031E36F5640020564A /* CoreVideo.framework */; };
-		01A90A061E36F56D0020564A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A90A051E36F56D0020564A /* MediaPlayer.framework */; };
-		01A90A081E36F5770020564A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A90A071E36F5770020564A /* MobileCoreServices.framework */; };
-		01A90A0A1E36F57F0020564A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A90A091E36F57F0020564A /* OpenGLES.framework */; };
-		01A90A0C1E36F5880020564A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A90A0B1E36F5880020564A /* QuartzCore.framework */; };
-		01A90A0E1E36F5900020564A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A90A0D1E36F5900020564A /* UIKit.framework */; };
-		01A90A101E36F59A0020564A /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A90A0F1E36F59A0020564A /* VideoToolbox.framework */; };
-		01A90A151E36F7380020564A /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A90A141E36F7380020564A /* IJKMediaFramework.framework */; };
+		01BD05831E375533004BA773 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 01BD05801E375533004BA773 /* 1.png */; };
+		01BD05841E375533004BA773 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 01BD05811E375533004BA773 /* 2.png */; };
+		01BD05851E375533004BA773 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 01BD05821E375533004BA773 /* 3.png */; };
+		01BD05881E375633004BA773 /* RollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BD05871E375633004BA773 /* RollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0124EAFD1E375119002C6C0E /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download.png; sourceTree = "<group>"; };
+		0124EAFE1E375119002C6C0E /* download@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "download@2x.png"; sourceTree = "<group>"; };
+		0124EAFF1E375119002C6C0E /* download@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "download@3x.png"; sourceTree = "<group>"; };
 		01A909D21E36EBC30020564A /* TestForChangeDatePickerTextColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestForChangeDatePickerTextColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01A909D61E36EBC30020564A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		01A909D81E36EBC30020564A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -43,20 +39,11 @@
 		01A909E61E36EBC30020564A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01A909EF1E36F04A0020564A /* UIDatePicker+TPGSetTextColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDatePicker+TPGSetTextColor.h"; sourceTree = "<group>"; };
 		01A909F01E36F04A0020564A /* UIDatePicker+TPGSetTextColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDatePicker+TPGSetTextColor.m"; sourceTree = "<group>"; };
-		01A909F71E36F5390020564A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		01A909F91E36F53F0020564A /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
-		01A909FB1E36F5480020564A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		01A909FD1E36F54F0020564A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		01A909FF1E36F5560020564A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		01A90A011E36F55E0020564A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		01A90A031E36F5640020564A /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
-		01A90A051E36F56D0020564A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		01A90A071E36F5770020564A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		01A90A091E36F57F0020564A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		01A90A0B1E36F5880020564A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		01A90A0D1E36F5900020564A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		01A90A0F1E36F59A0020564A /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
-		01A90A141E36F7380020564A /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = TestForChangeDatePickerTextColor/Framework/IJKMediaFramework.framework; sourceTree = "<group>"; };
+		01BD05801E375533004BA773 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		01BD05811E375533004BA773 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		01BD05821E375533004BA773 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		01BD05861E375633004BA773 /* RollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollView.h; sourceTree = "<group>"; };
+		01BD05871E375633004BA773 /* RollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,26 +51,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01A90A101E36F59A0020564A /* VideoToolbox.framework in Frameworks */,
-				01A90A0E1E36F5900020564A /* UIKit.framework in Frameworks */,
-				01A90A0C1E36F5880020564A /* QuartzCore.framework in Frameworks */,
-				01A90A0A1E36F57F0020564A /* OpenGLES.framework in Frameworks */,
-				01A90A081E36F5770020564A /* MobileCoreServices.framework in Frameworks */,
-				01A90A061E36F56D0020564A /* MediaPlayer.framework in Frameworks */,
-				01A90A041E36F5640020564A /* CoreVideo.framework in Frameworks */,
-				01A90A021E36F55E0020564A /* CoreMedia.framework in Frameworks */,
-				01A90A001E36F5560020564A /* CoreGraphics.framework in Frameworks */,
-				01A909FE1E36F54F0020564A /* AVFoundation.framework in Frameworks */,
-				01A909FC1E36F5480020564A /* AudioToolbox.framework in Frameworks */,
-				01A909FA1E36F53F0020564A /* libbz2.tbd in Frameworks */,
-				01A909F81E36F5390020564A /* libz.tbd in Frameworks */,
-				01A90A151E36F7380020564A /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0124EAF91E375119002C6C0E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				01BD05801E375533004BA773 /* 1.png */,
+				01BD05811E375533004BA773 /* 2.png */,
+				01BD05821E375533004BA773 /* 3.png */,
+				0124EAFD1E375119002C6C0E /* download.png */,
+				0124EAFE1E375119002C6C0E /* download@2x.png */,
+				0124EAFF1E375119002C6C0E /* download@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		01A909C91E36EBC30020564A = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +90,7 @@
 		01A909D41E36EBC30020564A /* TestForChangeDatePickerTextColor */ = {
 			isa = PBXGroup;
 			children = (
+				0124EAF91E375119002C6C0E /* Resources */,
 				01A909D81E36EBC30020564A /* AppDelegate.h */,
 				01A909D91E36EBC30020564A /* AppDelegate.m */,
 				01A909DB1E36EBC30020564A /* ViewController.h */,
@@ -115,6 +102,8 @@
 				01A909D51E36EBC30020564A /* Supporting Files */,
 				01A909EF1E36F04A0020564A /* UIDatePicker+TPGSetTextColor.h */,
 				01A909F01E36F04A0020564A /* UIDatePicker+TPGSetTextColor.m */,
+				01BD05861E375633004BA773 /* RollView.h */,
+				01BD05871E375633004BA773 /* RollView.m */,
 			);
 			path = TestForChangeDatePickerTextColor;
 			sourceTree = "<group>";
@@ -130,20 +119,6 @@
 		01A909F61E36F5390020564A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				01A90A141E36F7380020564A /* IJKMediaFramework.framework */,
-				01A90A0F1E36F59A0020564A /* VideoToolbox.framework */,
-				01A90A0D1E36F5900020564A /* UIKit.framework */,
-				01A90A0B1E36F5880020564A /* QuartzCore.framework */,
-				01A90A091E36F57F0020564A /* OpenGLES.framework */,
-				01A90A071E36F5770020564A /* MobileCoreServices.framework */,
-				01A90A051E36F56D0020564A /* MediaPlayer.framework */,
-				01A90A031E36F5640020564A /* CoreVideo.framework */,
-				01A90A011E36F55E0020564A /* CoreMedia.framework */,
-				01A909FF1E36F5560020564A /* CoreGraphics.framework */,
-				01A909FD1E36F54F0020564A /* AVFoundation.framework */,
-				01A909FB1E36F5480020564A /* AudioToolbox.framework */,
-				01A909F91E36F53F0020564A /* libbz2.tbd */,
-				01A909F71E36F5390020564A /* libz.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,8 +182,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				01A909E51E36EBC30020564A /* LaunchScreen.storyboard in Resources */,
+				0124EB051E375119002C6C0E /* download@3x.png in Resources */,
+				01BD05841E375533004BA773 /* 2.png in Resources */,
+				01BD05851E375533004BA773 /* 3.png in Resources */,
+				0124EB041E375119002C6C0E /* download@2x.png in Resources */,
 				01A909E21E36EBC30020564A /* Assets.xcassets in Resources */,
+				0124EB031E375119002C6C0E /* download.png in Resources */,
 				01A909E01E36EBC30020564A /* Main.storyboard in Resources */,
+				01BD05831E375533004BA773 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01A909DD1E36EBC30020564A /* ViewController.m in Sources */,
+				01BD05881E375633004BA773 /* RollView.m in Sources */,
 				01A909F11E36F04A0020564A /* UIDatePicker+TPGSetTextColor.m in Sources */,
 				01A909DA1E36EBC30020564A /* AppDelegate.m in Sources */,
 				01A909D71E36EBC30020564A /* main.m in Sources */,
@@ -389,6 +371,7 @@
 				01A909EB1E36EBC30020564A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
