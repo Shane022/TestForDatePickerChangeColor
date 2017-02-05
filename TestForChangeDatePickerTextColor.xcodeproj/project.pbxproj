@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0124EB031E375119002C6C0E /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = 0124EAFD1E375119002C6C0E /* download.png */; };
-		0124EB041E375119002C6C0E /* download@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0124EAFE1E375119002C6C0E /* download@2x.png */; };
-		0124EB051E375119002C6C0E /* download@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0124EAFF1E375119002C6C0E /* download@3x.png */; };
 		01A909D71E36EBC30020564A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A909D61E36EBC30020564A /* main.m */; };
 		01A909DA1E36EBC30020564A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A909D91E36EBC30020564A /* AppDelegate.m */; };
 		01A909DD1E36EBC30020564A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A909DC1E36EBC30020564A /* ViewController.m */; };
@@ -17,16 +14,10 @@
 		01A909E21E36EBC30020564A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01A909E11E36EBC30020564A /* Assets.xcassets */; };
 		01A909E51E36EBC30020564A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01A909E31E36EBC30020564A /* LaunchScreen.storyboard */; };
 		01A909F11E36F04A0020564A /* UIDatePicker+TPGSetTextColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A909F01E36F04A0020564A /* UIDatePicker+TPGSetTextColor.m */; };
-		01BD05831E375533004BA773 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 01BD05801E375533004BA773 /* 1.png */; };
-		01BD05841E375533004BA773 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 01BD05811E375533004BA773 /* 2.png */; };
-		01BD05851E375533004BA773 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 01BD05821E375533004BA773 /* 3.png */; };
 		01BD05881E375633004BA773 /* RollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BD05871E375633004BA773 /* RollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0124EAFD1E375119002C6C0E /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download.png; sourceTree = "<group>"; };
-		0124EAFE1E375119002C6C0E /* download@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "download@2x.png"; sourceTree = "<group>"; };
-		0124EAFF1E375119002C6C0E /* download@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "download@3x.png"; sourceTree = "<group>"; };
 		01A909D21E36EBC30020564A /* TestForChangeDatePickerTextColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestForChangeDatePickerTextColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01A909D61E36EBC30020564A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		01A909D81E36EBC30020564A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,9 +30,6 @@
 		01A909E61E36EBC30020564A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01A909EF1E36F04A0020564A /* UIDatePicker+TPGSetTextColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDatePicker+TPGSetTextColor.h"; sourceTree = "<group>"; };
 		01A909F01E36F04A0020564A /* UIDatePicker+TPGSetTextColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDatePicker+TPGSetTextColor.m"; sourceTree = "<group>"; };
-		01BD05801E375533004BA773 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
-		01BD05811E375533004BA773 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
-		01BD05821E375533004BA773 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		01BD05861E375633004BA773 /* RollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollView.h; sourceTree = "<group>"; };
 		01BD05871E375633004BA773 /* RollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,12 +48,6 @@
 		0124EAF91E375119002C6C0E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				01BD05801E375533004BA773 /* 1.png */,
-				01BD05811E375533004BA773 /* 2.png */,
-				01BD05821E375533004BA773 /* 3.png */,
-				0124EAFD1E375119002C6C0E /* download.png */,
-				0124EAFE1E375119002C6C0E /* download@2x.png */,
-				0124EAFF1E375119002C6C0E /* download@3x.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -182,14 +164,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				01A909E51E36EBC30020564A /* LaunchScreen.storyboard in Resources */,
-				0124EB051E375119002C6C0E /* download@3x.png in Resources */,
-				01BD05841E375533004BA773 /* 2.png in Resources */,
-				01BD05851E375533004BA773 /* 3.png in Resources */,
-				0124EB041E375119002C6C0E /* download@2x.png in Resources */,
 				01A909E21E36EBC30020564A /* Assets.xcassets in Resources */,
-				0124EB031E375119002C6C0E /* download.png in Resources */,
 				01A909E01E36EBC30020564A /* Main.storyboard in Resources */,
-				01BD05831E375533004BA773 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
